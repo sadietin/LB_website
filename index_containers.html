@@ -9,7 +9,7 @@
     <link href="CSS/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="CSS/bootstrap_overrides.css" rel="stylesheet" type="text/css">
 
-    <title>Luli_code1</title>
+    <title>Luli_code1container</title>
 
 
     <style type="text/css">
@@ -24,37 +24,36 @@ body {
     background-image: url("home_page_all_layers_long.jpg"); 
     background-size: 900px 1800px;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: top center;
+  background-attachment: fixed;
+  background-position: top center;
     z-index: -100;
-    }
+}
+      div#wrapper {
+        position:absolute;
+        max-width:750px;
+        top:0px;
+        position:inherit;
+        margin-top: 10px;
+        margin-left: 15%;
+        margin-right: 15%;
+      }
 
-  div#wrapper {
-    position:absolute;
-    max-width:750px;
-    top:0px;
-    position:inherit;
-    margin-top: 10px;
-    margin-left: 15%;
-    margin-right: 15%;
-    }
 
-#bg1 {
-    z-index: 100;
+#bg1 {z-index: 100;
     margin-top: 50px;
     }  
 
 header {
-    position: absolute;
-    float: left;
-    width: 200px;
-    top: 30px;
-    padding-top: 20px;
-    margin-left:5px;
-    margin-right:18px;
-    margin-bottom:20px;
-    z-index: 0;
-    }    
+        position: absolute;
+        float: left;
+        width: 200px;
+        top: 30px;
+        padding-top: 20px;
+        margin-left:5px;
+        margin-right:18px;
+        margin-bottom:20px;
+        z-index: 0;
+        }    
     
 h1 {
     font-weight: 900;
@@ -63,7 +62,7 @@ h1 {
     line-height: 108%;
     text-shadow: 2px 1px hsla(0,0%,0%,.70);
     color: rgba(250,250,250,1.00);
-    }
+}
 
 h2 {
     font-weight: 900;
@@ -73,7 +72,7 @@ h2 {
     color: hsla(213,37%,51%,0.90);
     letter-spacing: 5%;
     text-transform: uppercase;
-    }
+}
 
 h3 {
     font-weight: 700;
@@ -84,14 +83,14 @@ h3 {
     letter-spacing: 358%;
     white-space: pre-line;
     text-transform: uppercase;
-    }
+}
 
 h4 {
     font-weight:500;
     text-align: left;
     font-size: 1.3em;
     color:#F8F5F5;
-    }
+}
 
 h5 {
     font-weight: 450;
@@ -100,7 +99,7 @@ h5 {
     font-size: 1.15em;
     color: #F8F5F5;
     margin-left: auto;
-    }
+}
 
 main {
     position: absolute;
@@ -111,34 +110,34 @@ main {
     }
 
     h1.lettpg {
-    font-size:2.32em;
+      font-size:2.32em;
     }
 
-h4.lettpg {
-      font-family:'Source-sans-pro','Verdana', Geneva, Tahoma, sans-serif;
-      z-index: 1;
-      font-size: 1.1em;
-      color: rgb(234, 234, 241);
-      font-weight:600;
-      text-align:left;
-      text-shadow:none;
+      h4.lettpg {
+        font-family:'Source-sans-pro','Verdana', Geneva, Tahoma, sans-serif;
+        z-index: 1;
+        font-size: 1.1em;
+        color: rgb(234, 234, 241);
+       font-weight:600;
+        text-align:left;
+        text-shadow:none;
       }
 
-.lettsec {
-      position:absolute;
-      margin-top: 240px;
+      .lettsec {
+        position:absolute;
+        margin-top: 60px;
       }
 
-.accordion-body {
-      color: black;
-      font-size: 1.05em;
-      font-weight: 300;
-      font-family:'Source-sans-pro', Verdana, Geneva, Tahoma, sans-serif;
-      text-align:left;
-      z-index: 1;
+      .accordion-body {
+        color: black;
+        font-size: 1.05em;
+        font-weight: 300;
+        font-family:'Source-sans-pro', Verdana, Geneva, Tahoma, sans-serif;
+        text-align:left;
+        z-index: 1;
       }
 
-  </style>
+      </style>
 
   </head>
   <body>
@@ -153,19 +152,22 @@ h4.lettpg {
         <a class="nav-link" href="#">Pentecost</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Responses˙</a>
+        <a class="nav-link" href="#">Responses</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="index_containers.html">containers</a>
+        <a class="nav-link" href="#">Contact</a>
       </li>
     </ul>
-
-    <header><img src="IMAGES/Stone_bluish2.png" width="200" height="200" alt="crystal with cross"/></header>
+</div>
+       
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4"><img src="IMAGES/Stone_bluish2.png" width="200" height="200" alt="crystal with cross"/></div>
+            <div class="col-sm-8"><h1 class="lettpg">The Dawning <br />of a New <br />Reformation</h1><br>
+                <h3><span style="font-size:1em; word-spacing:-735%; letter-spacing: 300%;">Christ As Us.com</span></h3></div>
         
-    <main>
-        <h1 class="lettpg">The Dawning <br />of a New <br />Reformation</h1><br>
-        <h3><span style="font-size:1em; word-spacing:-735%; letter-spacing: 300%;">Christ As Us.com</span></h3>
-    </main> 
+      </div>
+ 
     
     <div class="lettsec">
 
