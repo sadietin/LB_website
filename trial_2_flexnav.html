@@ -9,8 +9,7 @@
     <link href="CSS/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="CSS/bootstrap_overrides.css" rel="stylesheet" type="text/css">
 
-    <title>Luli_code1</title>
-
+    <title>trial_1_containers</title>
 
     <style type="text/css">
 
@@ -29,14 +28,14 @@ body {
     z-index: -100;
     }
 
-  div#wrapper {
+div#wrapper {
     position:absolute;
     max-width:750px;
     top:0px;
     position:inherit;
     margin-top: 10px;
     margin-left: 15%;
-    margin-right: 15%;
+    margin-right: 15%;          
     }
 
 #bg1 {
@@ -110,66 +109,98 @@ main {
     margin-left: 180px;
     }
 
-    h1.lettpg {
+h1.lettpg {
     font-size:2.32em;
     }
 
 h4.lettpg {
-      font-family:'Source-sans-pro','Verdana', Geneva, Tahoma, sans-serif;
-      z-index: 1;
-      font-size: 1.1em;
-      color: rgb(234, 234, 241);
-      font-weight:600;
-      text-align:left;
-      text-shadow:none;
-      }
+    font-family:'Source-sans-pro','Verdana', Geneva, Tahoma, sans-serif;
+    z-index: 1;
+    font-size: 1.1em;
+    color: rgb(234, 234, 241);
+    font-weight:600;
+    text-align:left;
+    text-shadow:none;
+    }
 
 .lettsec {
-      position:absolute;
-      margin-top: 240px;
-      }
+    position:absolute;
+    margin-top: 60px;
+    }
 
 .accordion-body {
-      color: black;
-      font-size: 1.05em;
-      font-weight: 300;
-      font-family:'Source-sans-pro', Verdana, Geneva, Tahoma, sans-serif;
-      text-align:left;
-      z-index: 1;
-      }
+    color: black;
+    font-size: 1.05em;
+    font-weight: 300;
+    font-family:'Source-sans-pro', Verdana, Geneva, Tahoma, sans-serif;
+    text-align:left;
+    z-index: 1;
+    }
 
-  </style>
+    /* Create three equal columns that float next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+}
 
-  </head>
-  <body>
+/* Left and right column */
+.column.side {
+  width: 33.3%;
+}
 
-<div id="wrapper">
-    <div>
-      <ul class="nav justify-content-start">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Pentecost</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Responses</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="trial_1_containers.html">Containers</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link"  href="trial_1_email_form.html">Contact Us</a>
-      </li>
-  
-    </ul>
+/* Middle column */
+.column.middle {
+  width: 33.4%;
+}
 
-    <header><img src="IMAGES/Stone_bluish2.png" width="200" height="200" alt="crystal with cross"/></header>
-        
-    <main>
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+</style>
+
+</head>
+<body>
+
+    <div id="wrapper">
+<div>
+    <nav class="nav nav-pills flex-column flex-sm-row">
+        <a class="flex-sm-fill text-sm-center nav-link" href="index.html">Home</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">Pentecost</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="#">Responses</a>
+        <a class="flex-sm-fill text-sm-center nav-link" href="trial_1_containers.html">containers</a>
+        <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="trial_2_flexnav.html">Flexnav</a>
+
+      </nav>
+</div>
+       
+<header>
+<div class="row">
+    <div class="column side">
+      <img src="IMAGES/Stone_bluish2.png" width="200" height="200" alt="crystal with cross"/>
+    </div>
+    
+    <div class="column middle">
         <h1 class="lettpg">The Dawning <br />of a New <br />Reformation</h1><br>
         <h3><span style="font-size:1em; word-spacing:-735%; letter-spacing: 300%;">Christ As Us.com</span></h3>
-    </main> 
+    </div>
+    
+    <div class="column side">
+      
+    </div>
+  </div>
+</header>
+  
     
     <div class="lettsec">
 
@@ -178,12 +209,12 @@ h4.lettpg {
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-              THE PRESENT NEED: Men and women of stature (Ephesians 4:13) in whom the cross ...
+              THE PRESENT NEED: Men and women of stature (Ephesians 4:13) in whom the cross has done a deep work as to self-interest...
             </button>
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
             <div class="accordion-body">
-              ...has done a deep work as to self-interest. Who are not so concerned to preach, or to try and influence others to a doctrine or theory, but whose main influence will be one of LIFE (Colossians 3:4)."<br>
+              ... Who are not so concerned to preach, or to try and influence others to a doctrine or theory, but whose main influence will be one of LIFE (Colossians 3:4)."<br>
   T. Austin-Sparks
   A Witness and a Testimony, May 1943<br /><br/>
 Dear Linda,<br>
